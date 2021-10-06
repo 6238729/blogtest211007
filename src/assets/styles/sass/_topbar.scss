@@ -6,7 +6,8 @@
     top: 0;
     width: 100%;
     padding: 0 2rem;
-    background-color: var(--surface-card);
+    	// background-color: var(--surface-overlay);
+        background-color:rgb(194, 29, 32);
     transition: left $transitionDuration;
     display: flex;
     align-items: center;
