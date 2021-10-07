@@ -1,16 +1,10 @@
 <template>
-    <div id = "">
-        <p>Header부분</p>
-        
-            
-    </div>
-
     <div class="layout-topbar">	
 		<ul class="layout-topbar-menu hidden lg:flex origin-top">
 			<li>
 				<button class="p-link layout-topbar-button">
 					<i class="pi pi-cog"></i>
-					<span>Settings</span>
+					<span>About</span>
 				</button>
 			</li>
 			<li>

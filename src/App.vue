@@ -28,6 +28,19 @@ import EblogConfig from './EblogConfig.vue';
 import EblogFooter from './EblogFooter.vue';
 
 export default {
+      data() {
+        return {
+        }
+      },
+          methods: {
+    },
+
+      computed: {
+      containerClass() {
+            return [];
+        },
+    },
+
    
     components: {
         'EblogTopBar': EblogTopBar,
@@ -44,7 +57,7 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  background-color: #d4d4eb;
 }
 
 #nav {

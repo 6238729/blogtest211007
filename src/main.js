@@ -24,7 +24,7 @@ app.component('Sidebar', Sidebar);
 app.component('Button', Button);
 app.component('Card', Card);
 app.component('Toast', Toast);
-app.use(router).mount('#app')
+app.use(router, PrimeVue).mount('#app')
 
-app.use(PrimeVue);
+
 
